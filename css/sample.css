@@ -1,6 +1,150 @@
 html {
   font-size: 62.5%; }
 
+h1 {
+  margin: 0;
+  padding: 0; }
+
+/*# sourceMappingURL=sample.css.map */
+
+#sub_cover {
+    padding-top: 40px;
+    padding-right: 0px;
+    padding-bottom: 40px;
+    padding-left: 0px;
+    background-image: url(../images/news/sub_cover.jpg);
+    background-size: cover;
+}
+
+#sub_cover h2 {
+  color: white;
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing:0.2rem;
+  line-height:1.25rem;
+  text-align:center;
+}
+
+#contents {
+  padding-top: 20px;
+}
+
+#contents #main h2 {
+  border-bottom-color: rgb(66,185,208);
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  color: #42b9d0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+#contents #main .news_li li {
+  list-style-image: initial;
+  list-style-position: initial;
+  list-style-type: none;
+}
+
+#contents #main .news_li li span {
+  color: #42b9d0;
+  display: block;
+  font-weight:bold;
+  margin-bottom: 3px;
+}
+
+#contents #main .news_li {
+  font-size: 1.5rem;
+}
+
+#contents #sidebar .pc_sidemenu h3 {
+  background-color: #f3f9fb;
+  color: #42b9d0;
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+#contents #sidebar {
+  padding-bottom: 20px;
+}
+
+#contents #sidebar .pc_sidemenu li a {
+  color: #339fd1;
+  text-decoration: none;
+}
+
+#contents #sidebar .pc_sidemenu li {
+ list-style-type: none;
+ list-style-position: initial;
+ list-style-image: initial;
+ display: block;
+ border-bottom-width: 1px;
+ border-bottom-style: solid;
+ border-bottom-color: rgb(229,229,229);
+ background-repeat-x: no-repeat;
+ background-repeat-y: no-repeat;
+ background-position-x: 8px;
+ background-position-y: center;
+ margin-bottom: 0px;
+ padding-top: 10px;
+ padding-right: 10px;
+ padding-bottom: 10px;
+ padding-left: 20px;
+ background-image: url(../images/news/side_arrow.png);
+ background-size: 4px 8px;
+}
+
+@media (max-width: 550px) {
+#contents #sidebar .pc_sidemenu {
+  display: none;
+}
+}
+
+#contents #main th {
+  padding-right: 20px;
+}
+
+#contents #main th, #contents #main td {
+  padding-top: 20px;
+  padding-right: 0px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  color: #626262;
+  font-size: 1.4rem;
+}
+
+#contents #main h2.company_title {
+  margin-bottom: 0px;
+}
+
+@media (min-width: 550px) {
+#contents #main h2 {
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
+
+#sub_cover h2 {
+  text-align: center;
+  color: white;
+  font-size: 3.2rem;
+  font-weight: bold;
+  margin: 0px;
+  letter-spacing: 0.2rem;
+}
+
+#contents {
+  padding-top: 35px;
+  padding-bottom: 70px;
+}
+  
+}
+
 header {
   background: #eaf2f4; }
   header #header_in {
@@ -106,10 +250,23 @@ header {
       padding: 0; }
       #cover_area img {
         margin-top: 180px;
-        margin-left: 70px; } }
+        margin-left: 70px; }
+        
+    #sub_cover {
+      padding-top: 80px;
+      padding-right: 0px;
+      padding-bottom: 80px;
+      padding-left: 0px;
+    }
+    
+  }
   @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
     #cover_area {
-      background-image: url("../images/top/cover@2x.jpg"); } }
+      background-image: url("../images/top/cover@2x.jpg"); } 
+    #sub_cover {
+      background-image: url(../images/news/sub_cover@2x.jpg);
+    }
+  }
 
 #service_area {
   padding-top: 20px; }
@@ -243,135 +400,3 @@ footer {
           color: #eaf2f4; }
       footer .copy {
         margin-top: 30px; } }
-
-h1 {
-  margin: 0;
-  padding: 0; }
-
-/*# sourceMappingURL=sample.css.map */
-
-#sub_cover {
-    padding: 40px 0;
-    padding-top: 40px;
-    padding-right: 0px;
-    padding-bottom: 40px;
-    padding-left: 0px;
-    background-image: url(../images/news/sub_cover.jpg);
-    background-size: cover;
-}
-
-#sub_cover h2 {
-  color: white;
-  font-size: 3.2rem;
-  font-weight: bold;
-  letter-spacing:0.2rem;
-  line-height:1.25rem;
-  text-align:center;
-}
-
-#contents {
-  padding-top: 20px;
-}
-
-#contents #main h2 {
-  border-bottom-color: rgb(66,185,208);
-  border-bottom-style: solid;
-  border-bottom-width: 3px;
-  color: #42b9d0;
-  font-size: 1.5rem;
-  font-weight: bold;
-  padding-bottom: 15px;
-}
-
-#contents #main .news_li li {
-  list-style-image: initial;
-  list-style-position: initial;
-  list-style-type: none;
-}
-
-#contents #main .news_li li span {
-  color: #42b9d0;
-  display: block;
-  font-weight:bold;
-  margin-bottom: 3px;
-}
-
-#contents #main .news_li {
-  font-size: 1.5rem;
-}
-
-#contents #sidebar .pc_sidemenu h3 {
-  background-color: #f3f9fb;
-  color: #42b9d0;
-  font-size: 1.4rem;
-  font-weight: bold;
-  letter-spacing: 0.2rem;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  padding-bottom: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 15px;
-}
-
-#contents #sidebar {
-  padding-bottom: 20px;
-}
-
-#contents #sidebar .pc_sidemenu li a {
-  color: #339fd1;
-  text-decoration: none;
-}
-
-#contents #sidebar .pc_sidemenu li {
- list-style-type: none;
- list-style-position: initial;
- list-style-image: initial;
- display: block;
- border-bottom-width: 1px;
- border-bottom-style: solid;
- border-bottom-color: rgb(229,229,229);
- background-repeat-x: no-repeat;
- background-repeat-y: no-repeat;
- background-position-x: 8px;
- background-position-y: center;
- margin-bottom: 0px;
- padding-top: 10px;
- padding-right: 10px;
- padding-bottom: 10px;
- padding-left: 20px;
- background-image: url(../images/news/side_arrow.png);
- background-size: 4px 8px;
-}
-
-@media (max-width: 550px) {
-#contents #sidebar .pc_sidemenu {
-  display: none;
-}
-}
-
-#contents #main th {
-  padding-right: 20px;
-}
-
-#contents #main th, #contents #main td {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 0px;
-  color: #626262;
-  font-size: 1.4rem;
-}
-
-#contents #main h2.company_title {
-  margin-bottom: 0px;
-}
-
-@media (min-width: 550px) {
-#contents #main h2 {
-  font-size: 2rem;
-  padding-bottom: 20px;
-}
-}
-
-#conten
-}
